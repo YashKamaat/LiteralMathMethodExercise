@@ -2,6 +2,7 @@
 let warmHugs = "Hi, I'm Olaf and I like warm hugs."
 console.log(warmHugs.toUpperCase());
 warmHugs = warmhugs.replace("like", "love");
+console.log(warmHugs);
 // // ===========================
 // // 2a 2b
 let beenImpaled = "Oh, look at that. I've been impaled.";
@@ -46,9 +47,15 @@ console.log(reindeers.split(" ").join("_"));
 console.log(Math.SQRT2);
 // // ===========================
 // // 9
-let newRandomNumber = Math.ceil(Math.random() * (24 - 7) + 6);
-console.log(newRandomNumber);
-
+// let newRandomNumber = Math.ceil(Math.random() * (23 - 7) + 7);
+// console.log(newRandomNumber);
+// My numbers were too literal for all the space between the end of 23. The numbers are fixed and not a parameter of an upper or lower boundary of the numbers between, rather the actual 23 and 7 fixed integers and not anything up or down to, but from and to as parameters.
+var newRandomNumber = Math.floor (Math.random() * (23-7+1) + 7)
 // Integer int property 
 // upperBound and lowerBound
 // Ceil
+// let newRandomNumber = Math.floor(Math.random() * 17) + 7;
+// // newRandomNumber *= 17;
+// // newRandomNumber = Math.floor(newRandomNumber);
+// // newRandomNumber += 7;
+// console.log(newRandomNumber);
