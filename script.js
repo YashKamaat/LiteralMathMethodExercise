@@ -36,7 +36,8 @@ console.log(" Let It Go!".toUpperCase().repeat(2));
 // // ===========================
 // // 7
 let reindeers = "Reindeers are better than people.";
-console.log(reindeers.replace(/\s/g, "_"));
+// console.log(reindeers.replace(/\s/g, "_"));
+console.log(reindeers.replace(/ /g, "_"));
 // // ===========================
 // // 8
 // console.log(Math.sqrt(2));
