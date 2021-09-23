@@ -32,6 +32,7 @@ console.log(randomNumber);
 // // Bonus
 // // 6
 console.log(" Let It Go!".toUpperCase().repeat(2));
+// console.log(" Let It Go!".toUpperCase().repeat(2).trim());
 // // ===========================
 // // 7
 let reindeers = "Reindeers are better than people.";
