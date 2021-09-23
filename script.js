@@ -5,7 +5,8 @@ warmHugs = warmhugs.replace("like", "love");
 // ===========================
 // 2a 2b
 let beenImpaled = "Oh, look at that. I've been impaled.";
-console.log(beenImpaled.slice(18, beenImpaled.length))
+console.log(beenImpaled.slice(18))
+
 // ===========================
 // 3a 3b 
 let dotDotDot = "...";
