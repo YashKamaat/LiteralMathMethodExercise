@@ -37,7 +37,9 @@ console.log(" Let It Go!".toUpperCase().repeat(2));
 // // 7
 let reindeers = "Reindeers are better than people.";
 // console.log(reindeers.replace(/\s/g, "_"));
-console.log(reindeers.replace(/ /g, "_"));
+// console.log(reindeers.replace(/ /g, "_"));
+// console.log(reindeers.replaceAll(" ", "_"));
+console.log(reindeers.split(" ").join("_"));
 // // ===========================
 // // 8
 // console.log(Math.sqrt(2));
@@ -46,6 +48,7 @@ console.log(Math.SQRT2);
 // // 9
 let newRandomNumber = Math.ceil(Math.random() * (24 - 7) + 6);
 console.log(newRandomNumber);
+
 // Integer int property 
 // upperBound and lowerBound
 // Ceil
