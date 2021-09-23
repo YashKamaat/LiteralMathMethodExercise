@@ -6,6 +6,8 @@ warmHugs = warmhugs.replace("like", "love");
 // // 2a 2b
 let beenImpaled = "Oh, look at that. I've been impaled.";
 console.log(beenImpaled.slice(18))
+// console.log(beenImpaled.slice(18, 36));
+// console.log(beenImpaled.slice(-18));
 // // ===========================
 // // 3a 3b 
 let dotDotDot = "...";
@@ -21,6 +23,11 @@ randomNumber *= 3;
 randomNumber = Math.ceil(randomNumber);
 console.log(randomNumber);
 // let randomNumber = Math.ceil(Math.random() * 3);
+// let randomNum = Math.random();
+// randomNum *= 3;
+// randomNum = Math.floor(randomNum);
+// randomNum++;
+// console.log(randomNum);
 // // ===========================
 // // Bonus
 // // 6
